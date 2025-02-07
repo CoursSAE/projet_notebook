@@ -41,7 +41,7 @@ st.write(df.describe())
 st.subheader("📈 Distribution des salaires")
 
 # Création d'un boxplot pour visualiser la distribution des salaires
-fig = px.hist(df, x='job_title', y='salary') 
+fig = px.bar(df, x='job_title', y='salary') 
 st.plotly_chart(fig)
 
 
