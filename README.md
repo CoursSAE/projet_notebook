@@ -60,7 +60,7 @@ L’installation prendra quelques minutes.
 ### 2️⃣ Activer l’environnement
 Une fois l'environnement installé, activez-le avec la commande :
 
-   ```sh
+   sh
    conda activate projet
 
    
@@ -88,3 +88,5 @@ Exécuter l'application Streamlit :
    streamlit run "H:/application.py"
 
 L'application se lancera dans votre navigateur et affichera des visualisations interactives basées sur les données analysées.
+
+Ou cliquez simplement sur le lien "https://projetnotebook-cfy6fosvrqkvetys49gvnw.streamlit.app/"
