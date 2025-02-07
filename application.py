@@ -44,6 +44,9 @@ st.subheader("📈 Distribution des salaires")
 fig = px.box(df, x='experience_level', y='salary') 
 st.plotly_chart(fig)
 
+# Interprétation des résultats
+st.markdown("Le graphique montre la distribution des salaires en fonction du niveau d'expérience, révélant une forte variabilité selon les catégories. Les niveaux Mid-Level (MI) affichent des pics de rémunération plus élevés que les autres, avec des valeurs extrêmes, tandis que Senior (SE) et Entry-Level (EN) ont des salaires plus concentrés. On observe également des outliers marqués, notamment au niveau MI, suggérant que certains postes comme Data Science Manager ou Machine Learning Engineer peuvent atteindre des rémunérations exceptionnelles. La progression des salaires n’est pas strictement linéaire : certains niveaux bénéficient d’une hausse significative avant de stagner ou de diminuer aux niveaux supérieurs, ce qui indique que certaines fonctions sont mieux rémunérées à un stade intermédiaire de carrière, alors que d’autres suivent une évolution plus stable.")
+
 
 ### 4. Analyse des tendances de salaires :
 #### Salaire moyen par catégorie : en choisisant une des : ['experience_level', 'employment_type', 'job_title', 'company_location'], utilisant px.bar et st.selectbox 
