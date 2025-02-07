@@ -54,27 +54,24 @@ Avant de commencer, il est nécessaire de **configurer un environnement conda** 
    ```sh
    conda create -n projet python pandas numpy matplotlib jupyterlab kagglehub seaborn streamlit plotly
 
-
 Lorsqu'il vous demande "Proceed ([y]/n)?", appuyez sur y puis Entrée.
 L’installation prendra quelques minutes.
-2️⃣ Activer l’environnement
+
+### 2️⃣ Activer l’environnement
 Une fois l'environnement installé, activez-le avec la commande :
 
-sh
-Copier
-Modifier
-conda activate projet
-3️⃣ Lancer Jupyter Lab
+   sh
+   conda activate projet
+   
+### 3️⃣ Lancer Jupyter Lab
 Activer l’environnement (si ce n’est pas encore fait) :
-sh
-Copier
-Modifier
-conda activate projet
+   sh
+   conda activate projet
+
 Lancer Jupyter Lab en spécifiant le répertoire de travail :
-sh
-Copier
-Modifier
-jupyter lab --notebook-dir="H:/"
+   sh
+   jupyter lab --notebook-dir="H:/"
+
 Ouvrir le fichier du projet :
 Dans Jupyter Lab, ouvrez Projet_SAE.ipynb pour analyser les données.
 ## 🚀 Exécution de l'application Streamlit
@@ -82,14 +79,11 @@ Dans Jupyter Lab, ouvrez Projet_SAE.ipynb pour analyser les données.
 Une application interactive a été développée avec Streamlit pour visualiser les résultats d’analyse.
 
 🔹 Lancer l'application
-Activer l’environnement (si ce n’est pas encore fait) :
-sh
-Copier
-Modifier
-conda activate projet
+Activer l’environnement :
+   sh
+   conda activate projet
 Exécuter l'application Streamlit :
-sh
-Copier
-Modifier
-streamlit run "H:/application.py"
+   sh
+   streamlit run "H:/application.py"
+
 L'application se lancera dans votre navigateur et affichera des visualisations interactives basées sur les données analysées.
