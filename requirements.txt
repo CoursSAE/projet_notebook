@@ -1,0 +1,8 @@
+os
+pandas
+numpy
+matplotlib
+plotly
+jupyterlab
+kagglehub
+seaborn
