@@ -37,11 +37,11 @@ st.subheader("📌 Statistiques générales")
 st.write(df.describe())
 
 
-### 3. Distribution des salaires en France par rôle et niveau d'expérience, uilisant px.box et st.plotly_chart
-st.subheader("📈 Distribution des salaires en France")
+### 3. Distribution des salairespar rôle et niveau d'expérience, uilisant px.box et st.plotly_chart
+st.subheader("📈 Distribution des salaires")
 
 # Création d'un boxplot pour visualiser la distribution des salaires
-fig = px.box(df, x='experience_level', y='salary') 
+fig = px.box(df, x='employment_type', y='salary') 
 st.plotly_chart(fig)
 
 
