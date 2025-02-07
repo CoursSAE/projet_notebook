@@ -63,7 +63,7 @@ fig_bar = px.bar(salaire_moyen, x=selection, y='salary', title=f"Salaire moyen p
 st.plotly_chart(fig_bar)
 
 # Interprétation des résultats
-st.markdown("")
+st.markdown("Les graphiques montrent que la rémunération varie fortement selon l'expérience, le type d'emploi, l'intitulé du poste et la localisation de l'entreprise. Les Mid-Level (MI) et Executive (EX) ont les salaires moyens les plus élevés, tandis que les Senior (SE) gagnent moins en moyenne. Les Freelancers (FL) sont les mieux rémunérés, dépassant 300k, alors que les Part-Time (PT) ont les salaires les plus bas. Certains postes comme Head of Machine Learning ou Financial Data Analyst atteignent plusieurs millions, tandis que d’autres, comme Data Analyst ou Software Engineer, ont une rémunération plus stable. La localisation joue un rôle clé : la Suisse (CH) offre les salaires les plus élevés (jusqu'à 30M), suivie des États-Unis (US) et d’autres pays à forte demande en expertise. Ces tendances montrent que les opportunités financières dépendent fortement du marché, de la spécialisation et du niveau d’expérience.")
 
 
 ### 5. Corrélation entre variables
@@ -81,7 +81,7 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', ax=ax)
 st.pyplot(fig)
 
 # Interprétation des résultats
-st.markdown("")
+st.markdown("Le graphique représente la matrice de corrélation entre différentes variables numériques, indiquant la force et la direction des relations entre elles. On observe que l'année de travail (work_year) est positivement corrélée (+0.23) avec le salaire en USD, ce qui suggère une légère augmentation des salaires au fil du temps, tandis qu'elle est négativement corrélée (-0.24) avec le ratio de travail à distance, indiquant une diminution du télétravail avec les années. Le salaire en devise locale et en USD sont faiblement liés (-0.024), ce qui pourrait refléter des fluctuations monétaires ou des différences dans la conversion. Enfin, le ratio de télétravail a une très faible corrélation avec le salaire (+0.029), suggérant que le travail à distance n’influence pas significativement la rémunération.")
 
 
 ### 6. Analyse interactive des variations de salaire
