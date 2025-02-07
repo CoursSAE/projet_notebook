@@ -60,8 +60,9 @@ L’installation prendra quelques minutes.
 ### 2️⃣ Activer l’environnement
 Une fois l'environnement installé, activez-le avec la commande :
 
-   sh
+   ```sh
    conda activate projet
+
    
 ### 3️⃣ Lancer Jupyter Lab
 Activer l’environnement (si ce n’est pas encore fait) :
