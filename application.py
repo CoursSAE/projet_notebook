@@ -36,6 +36,9 @@ if st.checkbox("Afficher un aperçu des données"):
 st.subheader("📌 Statistiques générales")
 st.write(df.describe())
 
+# Interprétation des résultats
+st.markdown("Le tableau présente les statistiques générales des variables numériques, offrant un aperçu de la répartition des salaires, du travail à distance et des années de travail. L’échantillon contient 3 755 observations, avec une moyenne de salaire locale de 190 695 et une moyenne de 137 570 USD, bien que l’écart-type élevé indique une forte dispersion des salaires. Les salaires varient de 6 000 à 30,4 millions dans la devise locale et de 5 132 à 450 000 USD, ce qui met en évidence des disparités importantes. La médiane des salaires est de 138 000 en monnaie locale et 135 000 USD, suggérant que la plupart des salaires sont inférieurs à la moyenne en raison de valeurs extrêmes élevées. Concernant le télétravail (remote_ratio), la médiane est de 0, indiquant que la majorité des emplois sont en présentiel, bien que 25 % des emplois offrent un ratio de télétravail de 100 %. L’année de travail s’étend de 2020 à 2023, avec une moyenne autour de 2022, reflétant des données récentes.")
+
 
 ### 3. Distribution des salairespar rôle et niveau d'expérience, uilisant px.box et st.plotly_chart
 st.subheader("📈 Distribution des salaires")
