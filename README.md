@@ -55,14 +55,41 @@ Avant de commencer, il est nécessaire de **configurer un environnement conda** 
    conda create -n projet python pandas numpy matplotlib jupyterlab kagglehub seaborn streamlit plotly
 
 
+Lorsqu'il vous demande "Proceed ([y]/n)?", appuyez sur y puis Entrée.
+L’installation prendra quelques minutes.
+2️⃣ Activer l’environnement
+Une fois l'environnement installé, activez-le avec la commande :
 
-Expliquer conda
-
+sh
+Copier
+Modifier
 conda activate projet
-streamlit run "H:/"
-Procédure à réaliser avant les séances de TD (nous utiliserons désormais jupyter lab)
+3️⃣ Lancer Jupyter Lab
+Activer l’environnement (si ce n’est pas encore fait) :
+sh
+Copier
+Modifier
+conda activate projet
+Lancer Jupyter Lab en spécifiant le répertoire de travail :
+sh
+Copier
+Modifier
+jupyter lab --notebook-dir="H:/"
+Ouvrir le fichier du projet :
+Dans Jupyter Lab, ouvrez Projet_SAE.ipynb pour analyser les données.
+## 🚀 Exécution de l'application Streamlit
 
-    Lancer Anaconda Prompt sous Windows
-    Saisissez dans Anaconda Prompt : conda create -n projet python pandas numpy matplotlib jupyterlab kagglehub seaborn streamlit plotly
+Une application interactive a été développée avec Streamlit pour visualiser les résultats d’analyse.
 
-=> à la demande "Proceed ([y]/n)?" saisissez y (ou juste pressez sur la touche "entrée") => "Executing transaction" prend du temps, c'est normal Saisissez dans Anaconda Prompt : conda activate projet
+🔹 Lancer l'application
+Activer l’environnement (si ce n’est pas encore fait) :
+sh
+Copier
+Modifier
+conda activate projet
+Exécuter l'application Streamlit :
+sh
+Copier
+Modifier
+streamlit run "H:/application.py"
+L'application se lancera dans votre navigateur et affichera des visualisations interactives basées sur les données analysées.
