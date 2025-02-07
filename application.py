@@ -17,7 +17,7 @@ import streamlit as st
 import plotly.express as px
 
 # Chargement des données à partir du fichier csv Kaggle
-df = pd.read_csv("C:/Users/maxba/Downloads/ds_salaries.csv")
+df = pd.read_csv("ds_salaries.csv")
 
 
 ### 2. Exploration visuelle des données
