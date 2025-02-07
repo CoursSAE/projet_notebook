@@ -51,7 +51,6 @@ Avant de commencer, il est nécessaire de **configurer un environnement conda** 
 1. **Ouvrir** Anaconda Prompt (sous Windows) ou un terminal (macOS/Linux).
 2. **Créer un environnement `conda`** avec les dépendances requises :
 
-   ```sh
    conda create -n projet python pandas numpy matplotlib jupyterlab kagglehub seaborn streamlit plotly
 
 Lorsqu'il vous demande "Proceed ([y]/n)?", appuyez sur y puis Entrée.
@@ -67,12 +66,10 @@ Une fois l'environnement installé, activez-le avec la commande :
 
 1. **Activer l’environnement**) :
 
-   sh
    conda activate projet
 
 2. **Lancer Jupyter Lab en spécifiant le répertoire de travail :**
 
-   sh
    jupyter lab --notebook-dir="H:/"
 
 3. **Ouvrir le fichier du projet :**
@@ -88,7 +85,6 @@ Une application interactive a été développée avec Streamlit pour visualiser 
 
 **Exécuter l'application Streamlit :**
  
-   sh
    streamlit run "H:/application.py"
 
 L'application se lancera dans votre navigateur et affichera des visualisations interactives basées sur les données analysées.
