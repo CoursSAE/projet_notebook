@@ -148,7 +148,7 @@ fig_remote = px.bar(remote_salary, x='company_location', y='salary', color='remo
 st.plotly_chart(fig_remote)
 
 # Interprétation des résultats
-st.markdown("")
+st.markdown("Le graphique illustre l’impact du télétravail sur les salaires selon le pays, en utilisant un dégradé de couleur pour représenter le ratio de télétravail. On observe que certains pays, notamment la Suisse (CH) et les États-Unis (US), affichent les salaires les plus élevés, atteignant jusqu’à 30M. Le télétravail (remote_ratio) semble varier selon la localisation : les tons plus foncés indiquent une proportion plus élevée de télétravail, tandis que les tons clairs signalent une présence plus importante de travail en présentiel. Certains pays, comme l’Inde (IN) et l’Allemagne (DE), montrent une répartition plus équilibrée entre les niveaux de télétravail et de salaires. Ce graphique suggère que, bien que certains des salaires les plus élevés soient associés à un fort ratio de télétravail, d’autres pays affichent des rémunérations compétitives même avec une faible adoption du télétravail.")
 
 
 ### 10. Filtrage avancé des données avec deux st.multiselect, un qui indique "Sélectionnez le niveau d'expérience" et l'autre "Sélectionnez la taille d'entreprise"
