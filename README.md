@@ -60,30 +60,34 @@ L’installation prendra quelques minutes.
 ### 2️⃣ Activer l’environnement
 Une fois l'environnement installé, activez-le avec la commande :
 
-   sh
    conda activate projet
 
    
 ### 3️⃣ Lancer Jupyter Lab
-Activer l’environnement (si ce n’est pas encore fait) :
+
+1. **Activer l’environnement**) :
+
    sh
    conda activate projet
 
-Lancer Jupyter Lab en spécifiant le répertoire de travail :
+2. **Lancer Jupyter Lab en spécifiant le répertoire de travail :**
+
    sh
    jupyter lab --notebook-dir="H:/"
 
-Ouvrir le fichier du projet :
+3. **Ouvrir le fichier du projet :**
 Dans Jupyter Lab, ouvrez Projet_SAE.ipynb pour analyser les données.
+
+---
+
 ## 🚀 Exécution de l'application Streamlit
 
 Une application interactive a été développée avec Streamlit pour visualiser les résultats d’analyse.
 
-🔹 Lancer l'application
-Activer l’environnement :
-   sh
-   conda activate projet
-Exécuter l'application Streamlit :
+🔹 **Lancer l'application**
+
+**Exécuter l'application Streamlit :**
+ 
    sh
    streamlit run "H:/application.py"
 
